@@ -21,7 +21,7 @@ wget http://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux
 tar xf gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf.tar.xz
 export PATH=~/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf/bin:$PATH
 ```
-You can the path permernently through adding it into ~/.bashrc
+You can the path permanently through adding it into ~/.bashrc
 
 ### 2.2 Install android-fs-tools
 To generate modules.img which contains kernel modules, you can use the make_ext4fs.
